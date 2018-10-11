@@ -24,10 +24,8 @@
         margin-bottom: 16px;
     }
     &__desc {
-        margin-bottom: 32px;
-        line-height: 1.5em;
-        max-height: 6em;
-        overflow: hidden;
+        font-size: 18px;
+        line-height: 1.5;
     }
     &--center {
         text-align: center;
@@ -36,7 +34,7 @@
         box-shadow: 1px 2px 3px 0 rgba(0, 0, 0, 0.15);
         border-radius: 4px;
         .item__title {
-            font-size: 24px;
+            font-size: 22px;
             line-height: 1.3;
             text-transform: uppercase; // font-family: "RobotoLight", Arial, "Helvetica Neue", Helvetica, sans-serif;
             margin-bottom: 32px;
@@ -46,17 +44,53 @@
         text-align: right;
     }
     &--primary {
-        background-color: lighten($brand-primary, 17%);
+        background-color: $brand-primary;
         font-family: "RobotoLight", Arial, "Helvetica Neue", Helvetica, sans-serif;
         color: white;
         a {
             color: white;
         }
     }
+    &--success {
+        background-color: $brand-success;
+        font-family: "RobotoLight", Arial, "Helvetica Neue", Helvetica, sans-serif;
+        color: white;
+        a {
+            color: white;
+        }
+    }
+    &--info {
+        background-color: $brand-info;
+        font-family: "RobotoLight", Arial, "Helvetica Neue", Helvetica, sans-serif;
+        color: white;
+        a {
+            color: white;
+        }
+    }
+    &--danger {
+        background-color: $brand-danger;
+        font-family: "RobotoLight", Arial, "Helvetica Neue", Helvetica, sans-serif;
+        color: white;
+        a {
+            color: white;
+        }
+    }
+    &--warning {
+        background-color: $brand-warning;
+        font-family: "RobotoLight", Arial, "Helvetica Neue", Helvetica, sans-serif;
+        color: white;
+        a {
+            color: white;
+        }
+    }
+    &--sm {
+        padding: 32px 24px;
+    }
     .area--grey & {
-        background-color: white;
+        background-color: $gray;
         box-shadow: 1px 2px 3px 0 rgba(0, 0, 0, 0.10);
         border-radius: 4px;
+        color: white;
         .item__title {
             font-size: 18px;
             font-weight: bold;

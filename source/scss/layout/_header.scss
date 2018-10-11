@@ -6,7 +6,8 @@
     position: relative;
     overflow: hidden;
     padding-bottom: 32px;
-    background-color: $brand-primary;
+    background: url(../img/bg_cover.png) left top no-repeat $brand-primary;
+    background-size: cover;
     color: white;
     a {
         color: white;
