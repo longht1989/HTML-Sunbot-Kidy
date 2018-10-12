@@ -8,12 +8,19 @@
 }
 
 .btn {
-    // border-radius: 5px;
-    // transition: all 0.2s linear;
+    border-radius: 5px; // transition: all 0.2s linear;
     // padding-left: 16px;
     // padding-right: 16px;
     // background: linear-gradient(to right, #FF4B41, #C5281D);
     // font-weight: 500;
+    &-border {
+        border: 1px solid #fff;
+        &:hover {
+            background-color: white;
+            color: $brand-primary;
+            border: 1px solid darken($brand-primary, 5%);
+        }
+    }
 }
 
 .a-link {
