@@ -31,6 +31,22 @@
             font-size: 18px;
             line-height: 1.4;
         }
+        .btn {
+            .icon-change {
+                display: none;
+            }
+            img {
+                vertical-align: baseline;
+            }
+            &:hover {
+                .icon-default {
+                    display: none;
+                }
+                .icon-change {
+                    display: inline-block;
+                }
+            }
+        }
     }
     &__topbar {
         @include clearfix;
